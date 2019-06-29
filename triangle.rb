@@ -18,6 +18,10 @@ def triangle(a, b, c)
   if a == b 
   	if b==c
   		:equilateral
+  	else
+  		:isosceles
+  else
+  	:scalene
 
 end
 
